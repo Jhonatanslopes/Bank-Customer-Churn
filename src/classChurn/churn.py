@@ -179,11 +179,3 @@ class Churn:
 
         # original data with predictino to json
         return original_data.to_json(orient='records', date_format='iso')
-
-        # to do: 
-
-        # apagar modelo salvo
-        # treinar um novo com array
-        # salvar
-        # mudar os dados de teste para array na predição
-        # testar API

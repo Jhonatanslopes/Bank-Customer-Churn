@@ -51,7 +51,7 @@ def customer_churn():
         df_response = churn.get_prediction(model=model, original_data=df_cleaning, test_data=df_filtered)
         print('prediction OK')
 
-        return df_response
+        return df_response 
 
 
 if __name__ == '__main__':
