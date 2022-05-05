@@ -13,7 +13,7 @@ from flask import Flask, request, Response
 from classChurn.churn import Churn
 
 
-model = pickle.load(open('/model/model.pkl', 'rb')) # load model saved with pickle
+model = pickle.load(open('model/model.pkl', 'rb')) # load model saved with pickle
 app = Flask(__name__) # initialize API
 
 @app.route('/CustomerChurn/predict', methods=['POST'])
@@ -56,4 +56,4 @@ def customer_churn():
 
 if __name__ == '__main__':
     porta = os.environ.get('PORT', 5000)
-    app.run(host='127.0.0.1', port=porta)
+    app.run(host='0.0.0.0', port=porta)
