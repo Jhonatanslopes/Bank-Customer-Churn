@@ -219,7 +219,7 @@ As métricas usadas para comparação dos resultados foram: Precision @k, Recall
 ### 3. Qual o retorno esperado, em termos de faturamento, se a empresa utilizar seu modelo para evitar o churn dos clientes?
 
 <p align="center">
-  <img src="img/result.jpg" width="1000" title="img-deploy">
+  <img src="img/result.JPG" width="1000" title="img-deploy">
 </p>
 
 # Entrega da Solução
@@ -235,5 +235,5 @@ Acesse os resultados do modelo em produção e faça seus testes.
 [![Acesse aqui](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamlit-churn.herokuapp.com/)
 
 <p align="center">
-  <img src="img/streamlit.jpg" width="1000" title="img-deploy">
+  <img src="img/streamlit.JPG" width="1000" title="img-deploy">
 </p>
