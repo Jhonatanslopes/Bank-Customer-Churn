@@ -226,7 +226,9 @@ As métricas usadas para comparação dos resultados foram: Precision @k, Recall
 
 ## Arquitetura Modelo em Produção
 
-\*\* to do
+<p align="center">
+  <img src="img/deploy.JPG" width="1000" title="img-deploy">
+</p>
 
 ## Demonstração do Modelo
 
